@@ -1,0 +1,9 @@
+{
+  "name": "AI Generated App",
+  "short_name": "AI App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ff99",
+  "description": "App, die man öffnen, kann. bei öffnen, soll schwarzer bildschirm mit knopf in der mitte auf dem,,error is no joke\" steht. bei knopf druck, soll app sich schließen, und nachricht anzeign, in nachricht steht,,I'm gonna kill you\". bei klick auzf nahcricht soll link geöfnet werden,,https://08152.github.io/hacker/\"\n"
+}

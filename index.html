@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;font-family:Arial;background:#111;color:white;text-align:center;">
+
+<h2>🧠 AI Generated App</h2>
+
+<p style="opacity:0.6;font-size:12px;">App, die man öffnen, kann. bei öffnen, soll schwarzer bildschirm mit knopf in der mitte auf dem,,error is no joke" steht. bei knopf druck, soll app sich schließen, und nachricht anzeign, in nachricht steht,,I'm gonna kill you". bei klick auzf nahcricht soll link geöfnet werden,,https://08152.github.io/hacker/"
+</p>
+
+
+
+<button onclick="run()">Start</button><br><br>
+
+
+
+
+
+<script>
+
+function run(){
+
+  let i = document.getElementById("i");
+
+  if(i){
+    let v = i.value;
+    let list = document.getElementById("list");
+
+    if(list){
+      list.innerHTML += "<p>• " + v + "</p>";
+    }
+  }
+
+  let c = document.getElementById("c");
+
+  if(c){
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "rgb(" + Math.random()*255 + ",0,0)";
+    ctx.fillRect(Math.random()*250, Math.random()*250, 30, 30);
+  }
+
+}
+
+</script>
+
+</body>
+</html>
